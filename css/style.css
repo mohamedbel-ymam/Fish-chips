@@ -1,0 +1,38 @@
+@font-face {
+    font-family:"Open_Sans" ;
+    src: url(../font/Open_Sans/OpenSans-Bold.ttf);
+    font-family:"Slabo";
+    src: url(../font/Slabo_27px/Slabo27px-Regular.ttf);
+}
+body {background-image: url(../img/fond.png);margin:0px }
+header {background-color:#25b3b4;
+    margin-top: 50px;font-family:  "Open_sans";}
+header nav{border: 4px solid; border-color: #2b9aa0; font-family: "Slabo";}
+header nav img{display: block;margin: auto;}
+header nav ul{ text-align: center; margin: 0px;padding: 0px; }
+header nav ul li{ list-style: none; display: inline-block;
+padding: 20px;}
+nav ul li{color: white;font-size:larger;}
+.introduction{width:40%;margin: auto;}
+.introduction h4{font-size: 2.5em;text-align: center;font-family:"Slabo" ;
+}
+.introduction p{text-align: center;}
+.contenu{background-color: #b6dedc;width: 60%; display:inline-block;margin-left: 100px; }
+.contenu .first{width:45%;display: inline-block;margin: right 5px;
+padding: 0px;}
+.contenu .first,.second p{margin: 5px; text-align: center;margin-top: -10px;}
+.contenu .second{float: right ;width: 45%;}
+.contenu h2{font-size: 3.5em;font-family: "Slabo";text-align: center;}
+.contenu section img{border-radius: 50%;float: left;}
+.contenu section h3{font-size: 1.8em;font-family: "Slabo";}
+.contenu section button{background-color:#25b3b4; float: right;margin-bottom: 10px;margin-right:10px; }
+.contenu section h3 i{color:#25b3b4;}
+.contenu section button i {color: white;}
+.aside img{float: right;position: absolute;padding-left: 180px;margin-top: -80px;}
+.aside h6{font-size: 1.4em;font-family: "Slabo";}
+main .aside{width: 20%;float: right; background-color: #34b1b2; margin-right: 50px;}
+main .aside h6,p{text-align: center; font-family: "Slabo";}
+main .aside h5{margin-left: 10px;color: #b6dedc; margin-top: 10px;margin-bottom: 10px; }
+main .aside {color: white;border: 4px solid;border-color: #2b9aa0;}
+.container footer img{width: 60px;display: block;margin: auto; }
+p{font-family:"Open_Sans" ;}
